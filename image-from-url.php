@@ -18,7 +18,7 @@ include_once( 'includes/rajoshik_image_upload_from_url_function.php' );
 add_action( 'admin_init', 'url_to_image_custome_field' );
  
 function url_to_image_custome_field() {
-    add_meta_box('url_to_image_meta_box', 'Upload Post Feature Image From URL', 'url_to_image_meta_box', 'post');
+    add_meta_box('url_to_image_meta_box', 'Upload Post Feature Image From URL', 'url_to_image_meta_box', array('post'));
 }
  
 function url_to_image_meta_box () {
