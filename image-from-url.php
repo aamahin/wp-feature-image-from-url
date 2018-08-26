@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: VainCode Upload Feature Image From URL
+Plugin Name: Upload Feature Image From URL
 Plugin URI: http://aamahin.com
 Description: This Plugin will allow user to upload post feature image from image url. Image will be added as post feature image..
 Author: Md. Abdullah Al Mahim
