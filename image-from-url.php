@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: VainCode Upload Feature Image From URL
-Plugin URI: http://market.vaincode.com/product/set-post-feature-image-from-url/
+Plugin URI: http://aamahin.com
 Description: This Plugin will allow user to upload post feature image from image url. Image will be added as post feature image..
 Author: Md. Abdullah Al Mahim
 Version: 1.1
@@ -67,11 +67,6 @@ $upload_img =	rajoshik_attach_external_image( $image_url,$post->ID,get_the_title
 
 }
 add_action ('post_updated', 'url_to_image_mela_field');
-
-
-
-
-
 
 
 function url_to_image_style_admin() {
